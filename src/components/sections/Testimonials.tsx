@@ -9,13 +9,13 @@ const Testimonials: React.FC = () => {
     {
       name: 'Ahmed Khan',
       role: 'Alumni, Class of 2018',
-      text: 'My time at VDUHS laid a strong foundation for my academic and personal growth. The teachers' dedication and comprehensive curriculum prepared me well for university life and beyond.',
+      text: "My time at VDUHS laid a strong foundation for my academic and personal growth. The teachers' dedication and comprehensive curriculum prepared me well for university life and beyond.",
       initials: 'AK',
     },
     {
       name: 'Saira Patel',
       role: 'Parent',
-      text: 'We chose VDUHS for its academic excellence and values-based education. The school has exceeded our expectations by nurturing our child's talents and instilling important life skills.',
+      text: "We chose VDUHS for its academic excellence and values-based education. The school has exceeded our expectations by nurturing our child's talents and instilling important life skills.",
       initials: 'SP',
     },
     {

@@ -17,14 +17,14 @@ const Faculty: React.FC = () => {
       position: 'Vice Principal',
       image: null,
       initials: 'FK',
-      description: 'Master's in Mathematics and Educational Administration with expertise in curriculum development.',
+      description: "Master's in Mathematics and Educational Administration with expertise in curriculum development.",
     },
     {
       name: 'Mr. Rahul Deshmukh',
       position: 'Head of Sciences',
       image: null,
       initials: 'RD',
-      description: 'Master's in Physics with a passion for innovative teaching methods in sciences.',
+      description: "Master's in Physics with a passion for innovative teaching methods in sciences.",
     },
     {
       name: 'Ms. Aisha Patel',
