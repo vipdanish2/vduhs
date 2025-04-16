@@ -36,18 +36,8 @@ const Academics: React.FC = () => {
       },
       {
         icon: <BookOpen className="w-6 h-6 text-navy" />,
-        title: 'Commerce Stream',
-        description: 'Accounts, Economics, Business Studies',
-      },
-      {
-        icon: <Users className="w-6 h-6 text-navy" />,
         title: 'Arts Stream',
         description: 'Literature, History, Political Science, Sociology',
-      },
-      {
-        icon: <Languages className="w-6 h-6 text-navy" />,
-        title: 'Language Studies',
-        description: 'Advanced Urdu, English, and other languages',
       },
     ],
   };
@@ -68,7 +58,7 @@ const Academics: React.FC = () => {
 
           <TabsContent value="highSchool">
             <div className="mb-8">
-              <h3 className="text-2xl font-bold text-navy mb-4 font-playfair">High School Program (Classes 8-10)</h3>
+              <h3 className="text-2xl font-bold text-navy mb-4 font-playfair">High School Program (Classes 5-10)</h3>
               <p className="text-gray-700 mb-6">
                 Our high school program focuses on providing a strong foundation in core subjects while nurturing students' talents and interests. The curriculum follows the State Board syllabus with additional enrichment.
               </p>
@@ -95,7 +85,7 @@ const Academics: React.FC = () => {
             <div className="mb-8">
               <h3 className="text-2xl font-bold text-navy mb-4 font-playfair">Junior College (Classes 11-12)</h3>
               <p className="text-gray-700 mb-6">
-                Our Junior College offers diverse streams that prepare students for higher education and future careers. The curriculum is designed to build depth in chosen fields while maintaining a holistic approach to education.
+                Our Junior College offers Science and Arts streams that prepare students for higher education and future careers. The curriculum is designed to build depth in chosen fields while maintaining a holistic approach to education.
               </p>
             </div>
 

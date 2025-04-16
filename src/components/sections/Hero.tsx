@@ -25,18 +25,21 @@ const Hero: React.FC = () => {
       />
       
       <div className="container mx-auto px-6 relative z-30 text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 font-playfair animate-fade-in">
+        <h2 className="text-xl md:text-2xl lg:text-3xl font-medium text-gold mb-2 animate-fade-in">
+          Adarsh Sevhabhvi Sanstha
+        </h2>
+        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 font-playfair animate-fade-in" style={{ animationDelay: '0.2s' }}>
           Vilasrao Deshmukh
         </h1>
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gold mb-6 font-playfair animate-fade-in" style={{ animationDelay: '0.2s' }}>
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gold mb-6 font-playfair animate-fade-in" style={{ animationDelay: '0.4s' }}>
           Urdu High School & Jr. College
         </h2>
         
-        <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+        <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-12 animate-fade-in" style={{ animationDelay: '0.6s' }}>
           Empowering Minds, Building Futures through Excellence in Education
         </p>
         
-        <div className="flex flex-col md:flex-row justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.6s' }}>
+        <div className="flex flex-col md:flex-row justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.8s' }}>
           <a href="#admissions" className="bg-gold hover:bg-gold-dark text-navy font-bold px-8 py-3 rounded-md text-lg transition-colors">
             Apply Now
           </a>

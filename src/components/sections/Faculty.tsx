@@ -6,10 +6,10 @@ import { Card, CardContent } from '@/components/ui/card';
 const Faculty: React.FC = () => {
   const facultyMembers = [
     {
-      name: 'Dr. Syed Ahmad',
+      name: 'Ahmad Siddiqui Sir',
       position: 'Principal',
       image: null,
-      initials: 'SA',
+      initials: 'AS',
       description: 'Ph.D. in Education with over 20 years of experience in educational leadership.',
     },
     {
@@ -20,10 +20,10 @@ const Faculty: React.FC = () => {
       description: "Master's in Mathematics and Educational Administration with expertise in curriculum development.",
     },
     {
-      name: 'Mr. Rahul Deshmukh',
+      name: 'Abdul Moiz Sir',
       position: 'Head of Sciences',
       image: null,
-      initials: 'RD',
+      initials: 'AM',
       description: "Master's in Physics with a passion for innovative teaching methods in sciences.",
     },
     {
