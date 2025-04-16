@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { BookOpen, Award, Users, Clock } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -45,7 +44,7 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <div className="flex items-center">
             <img
-              src="https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?auto=format&fit=crop&q=80"
+              src="/lovable-uploads/ba6a37e5-754b-4315-bb63-b280c9a92957.png"
               alt="School building"
               className="rounded-lg shadow-xl w-full h-auto object-cover"
               style={{ maxHeight: '400px' }}
