@@ -1,21 +1,30 @@
 
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
+import { BackgroundSlideshow } from '@/components/ui/background-slideshow';
 
 const Hero: React.FC = () => {
+  const images = [
+    "/lovable-uploads/ba6a37e5-754b-4315-bb63-b280c9a92957.png",
+    "/lovable-uploads/c6d9b869-9adb-4e5c-8dc1-2ae1b9634215.png",
+    "/lovable-uploads/006d8414-eb23-4174-93cb-f717b807804b.png",
+    "/lovable-uploads/2c225e42-f418-49cb-9fcd-895b712901df.png",
+    "/lovable-uploads/0bf4242a-0290-449b-8b33-2891e03920d9.png"
+  ];
+
   return (
     <section 
       id="home" 
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
-      style={{
-        backgroundImage: 'linear-gradient(rgba(10, 36, 99, 0.8), rgba(10, 36, 99, 0.8)), url(https://images.unsplash.com/photo-1527576539890-dfa815648363?auto=format&fit=crop&q=80)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center'
-      }}
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-navy/60 to-navy/90"></div>
+      <BackgroundSlideshow 
+        images={images} 
+        interval={6000} 
+        overlayColor="rgba(10, 36, 99, 0.75)"
+        className="absolute inset-0"
+      />
       
-      <div className="container mx-auto px-6 relative z-10 text-center">
+      <div className="container mx-auto px-6 relative z-30 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 font-playfair animate-fade-in">
           Vilasrao Deshmukh
         </h1>
@@ -39,7 +48,7 @@ const Hero: React.FC = () => {
       
       <a 
         href="#about" 
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white animate-bounce"
+        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white animate-bounce z-30"
         aria-label="Scroll to about section"
       >
         <ChevronDown size={36} />
