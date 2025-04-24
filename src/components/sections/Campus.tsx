@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { BookOpen, Monitor, Users, Dumbbell, BookMarked, Coffee } from 'lucide-react';
+import { BookOpen, Monitor, Users, Dumbbell, BookMarked } from 'lucide-react';
 
 const Campus: React.FC = () => {
   const facilities = [
@@ -28,12 +27,7 @@ const Campus: React.FC = () => {
       icon: <Users size={32} className="text-gold mb-4" />,
       title: 'Auditorium',
       description: 'Modern auditorium for cultural events, seminars, and special programs.',
-    },
-    {
-      icon: <Coffee size={32} className="text-gold mb-4" />,
-      title: 'Cafeteria',
-      description: 'Clean and hygienic cafeteria serving nutritious meals and refreshments.',
-    },
+    }
   ];
 
   return (
@@ -95,12 +89,6 @@ const Campus: React.FC = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="mt-16 text-center">
-          <a href="#" className="inline-block bg-gold hover:bg-gold-dark text-navy font-bold px-8 py-3 rounded-md text-lg transition-colors">
-            Schedule a Campus Tour
-          </a>
         </div>
       </div>
     </section>

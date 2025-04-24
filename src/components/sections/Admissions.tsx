@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -10,11 +9,6 @@ const Admissions: React.FC = () => {
       title: 'Submit Application',
       description: 'Complete and submit the online application form with required documents.',
       icon: <FileText className="w-10 h-10 text-gold" />,
-    },
-    {
-      title: 'Entrance Test',
-      description: 'Applicants may be required to take an entrance test based on their desired program.',
-      icon: <CheckCircle2 className="w-10 h-10 text-gold" />,
     },
     {
       title: 'Interview',
@@ -57,7 +51,7 @@ const Admissions: React.FC = () => {
 
         <div className="max-w-4xl mx-auto mb-16">
           <h3 className="text-2xl font-bold text-navy mb-6 font-playfair text-center">Admission Process</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {admissionSteps.map((step, index) => (
               <Card key={index} className="border-none shadow-md hover:shadow-lg transition-shadow">
                 <CardContent className="p-6 text-center">
