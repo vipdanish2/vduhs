@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -70,7 +69,7 @@ const Contact: React.FC = () => {
             ></iframe>
           </div>
 
-          <div className="mt-0 lg:mt-0 bg-navy/5 rounded-lg p-8 text-center">
+          <div className="mt-16 bg-navy/5 rounded-lg p-8 text-center">
             <h3 className="text-2xl font-bold text-navy mb-4 font-playfair">Email Us</h3>
             <div className="flex flex-col md:flex-row justify-center gap-8 mb-4">
               <div className="flex items-center justify-center">
