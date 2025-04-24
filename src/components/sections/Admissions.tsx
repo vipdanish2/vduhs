@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -25,15 +26,15 @@ const Admissions: React.FC = () => {
   const faqItems = [
     {
       question: 'What is the admission process for new students?',
-      answer: 'The admission process includes submitting an application form, providing necessary documents, appearing for an entrance test, and attending an interview. Successful candidates will receive an admission offer.',
+      answer: 'The admission process includes submitting an application form, providing necessary documents, and attending an interview. Successful candidates will receive an admission offer.',
     },
     {
       question: 'What are the documents required for admission?',
       answer: 'Required documents include birth certificate, previous academic records, transfer certificate (if applicable), passport-sized photographs, and address proof.',
     },
     {
-      question: 'Is there an entrance exam for admission?',
-      answer: 'Yes, depending on the grade level and program, an entrance test may be conducted to assess the student\'s academic readiness.',
+      question: 'Are there any special requirements for admission?',
+      answer: 'Requirements may vary depending on the grade level and program. It\'s best to contact our admissions office for specific details.',
     },
     {
       question: 'What are the fee payment options available?',
@@ -93,7 +94,7 @@ const Admissions: React.FC = () => {
                   </li>
                   <li className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-gold mr-2 mt-0.5" />
-                    <span>Entrance test and interview as per grade level</span>
+                    <span>Interview with faculty members</span>
                   </li>
                 </ul>
                 <div className="flex justify-center">
@@ -128,7 +129,7 @@ const Admissions: React.FC = () => {
                   </li>
                   <li className="flex items-start">
                     <CheckCircle2 className="w-5 h-5 text-gold mr-2 mt-0.5" />
-                    <span>Eligibility based on Class 10 results and entrance test (for specific streams)</span>
+                    <span>Interview with faculty members</span>
                   </li>
                 </ul>
                 <div className="flex justify-center">
